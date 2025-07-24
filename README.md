@@ -1,0 +1,1 @@
+En esta aplicacion de net maui, le pedimos al usuario que ingrese la altura, la base, y los dos lados restantes de un triangulo, que luego al darle click al boton de calcular, los datos seran usados para poder calcular el area y el perimetro del triangulo
