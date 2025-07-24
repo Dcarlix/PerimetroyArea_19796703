@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PerimetroyArea19796703.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="triangulo.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"/>
+            <Label Text="Digite la altura y los tres lados del triangulo"/>
+            <Entry x:Name="Altura" Placeholder="Altura"/>
+            <Entry x:Name="Base" Placeholder="Base"/>
+            <Entry x:Name="Lado2" Placeholder="Segundo lado"/>
+            <Entry x:Name="Lado3" Placeholder="Tercer lado"/>
+            <Button Text="Calcular" Clicked="Button_Clicked"/>
+            <Label Text="Area" x:Name="ResultArea" FontSize="20" HorizontalTextAlignment="Center" Margin="5"/>
+            <Label Text="Perimetro" x:Name="ResultPerimetro" FontSize="20" HorizontalTextAlignment="Center"  Margin="5"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+ 
